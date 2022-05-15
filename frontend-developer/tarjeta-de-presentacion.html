@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+        font-size: 62.5%;
+        font-family: sans-serif;
+        }
+
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+        }
+        .card{
+            width: 300px;
+            height: 500px;
+            background: rgb(255, 239, 213);
+            border-radius: 20px;
+            overflow: hidden;
+            align-items: center;
+            flex-direction: row;
+
+        }
+        .card img:nth-child(1){
+            width: 100%;
+        }
+        .card img:nth-child(2){
+            position: relative;
+            top: -5rem;
+            height: 20%;
+            width: 35%;
+            border-radius: 50%;
+            border: 5px solid rgba(80, 80, 82, 0.3);
+            margin-left: 31%;
+            object-fit: cover;
+ 
+        }
+        .card p:nth-child(3){
+            margin-top: -3rem;
+            font-size: 2.3rem;
+            font-weight: bold;
+            text-align: center;
+            color: rgb(192, 89, 16);
+        }
+        .card p:nth-child(4){
+            margin-top: -2rem;
+            font-size: 2.0rem;
+            text-align: center;
+            color: rgba(80, 80, 82, 0.7);
+        }
+        hr{
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            border: solid rgb(192, 89, 16);
+
+        }
+        .card .Info{
+            display: inline-block;
+            margin-left: -3px;
+            margin-top: 2em;
+            font-size: 1.5rem;
+            text-align: center;
+            color: rgba(80, 80, 82, 0.9);
+            background-color: rgba(192, 89, 16, 0.2);
+            height: 81px;
+            width: 302px;
+            border: solid rgba(80, 80, 82, 0.2);
+            font-weight: bold;
+        }
+
+        .card .p1{
+            color: rgba(191, 110, 52, 0.9);
+        }
+
+
+        
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1025469/pexels-photo-1025469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="background">
+                <img src="https://lh3.googleusercontent.com/0MDxMKf6OTgPaYy5by9RkmEJc9FC_A9ysilHryiMfteNPzHXlIvCooHr5f0Ele4CvCf5JGlRnmCVyVcSdfPlQHCxJfis8o-Bncsrdc3si7mCJp4tPMAmZr4Q-WNEQNb5tPtAffJ24vYspEl7hoe_GC1l0Fb5HODEJaYk6sRT1p3ZHXJ1Fve8n9xcnxve7thd2SeG9yogJmIYjB6Sx44mIcMLBkNZtoYGN-7_6W3b3Ak1N884thO6PhRSY5zg1yJfpnIMadkKvwIrNBL0ET-0EEAbSHGAH-nX4RoOWBwpejv6SCRsr7RkVQyhmDaSr5Ax45Tw-KCF96m7Ok6kSA8Xnb2drpDRiuMtXMujZ1jWdU73hroaIMUvxWTbXbZFTgOdhhZEJV_XPvgE2Js-22i-yLay0lSz5cJTLG-61NMWrKQ8-pdZv29JPJLIgSGMvQEwa99wYKcP7Ty_bgt6uwxBX31_VDecTwEEIU9jRGDlnowtKK6X964BiFa3OdYoD4MXHLeffx-LlDNi_1ngmP7oXSaRoXo6ZBp8pvcxgRQh_39gx3a4VdU0brm6ZaBKY5J6vxdTpw12FDMOn0QIqPD4X53B4bIj4yQfUDwS11k971NjwFanF6afxNtFanWe9uNjRLenP51aoDoPFBE6a4Z6gnVrbJKeXaOCmbWNfEcSo3TmXHopjNLb9e7zZBzy7v5MfUmWO-HEVHw9n9k6RePVtzBLkS5DaY21bW0ixm2Bsgvdhem4rrrqWZekv-HjDiux9OWhaPjPwrp4FdQ7jbjJqoY5ECz1C-59NqWX=w1270-h1692-no?authuser=0" alt="Federico">
+                <p> Federico Urraca</p>
+                <p> Front End</p>
+                <hr/>
+                <div class="Info" style="display: flex; flex-direction: row; justify-content: space-around;">
+
+                    <div>
+                        <p class="p1">Followers</p> 
+                        <p>1,000</p>
+                        
+                    </div>
+                    <div>
+                        <p class="p1">Subscribers</p> 
+                        <p>20K</p>
+                         
+                    </div>
+                    
+                </div>
+                
+
+        </div>
+        
+
+    </section>
+    
+</body>
+</html>
